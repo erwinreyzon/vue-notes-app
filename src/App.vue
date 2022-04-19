@@ -1,5 +1,16 @@
+<script>
+import NoteToolbar from "./components/NoteToolbar.vue";
+
+export default {
+  components: {
+    NoteToolbar,
+  },
+};
+</script>
+
 <template>
   <div id="app">
+    <NoteToolbar />
     <div class="note-container">
       <div class="note-selectors">
         <div class="note-selector active">
