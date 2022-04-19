@@ -1,9 +1,11 @@
 <script>
 import NoteToolbar from "./components/NoteToolbar.vue";
+import NoteContainer from "./components/NoteContainer.vue";
 
 export default {
   components: {
     NoteToolbar,
+    NoteContainer,
   },
 };
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
   <div id="app">
     <NoteToolbar />
+    <NoteContainer />
   </div>
 </template>
 
